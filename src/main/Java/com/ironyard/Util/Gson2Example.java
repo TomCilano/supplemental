@@ -1,4 +1,4 @@
-package com.ironyard.Util.;
+package com.ironyard.Util;
 
 import com.google.gson.Gson;
 import com.ironyard.data.Staff;

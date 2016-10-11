@@ -1,5 +1,6 @@
 package com.ironyard.Util;
 
+import com.google.gson.Gson;
 import com.ironyard.data.Staff;
 
 import java.io.FileWriter;
@@ -17,7 +18,7 @@ public class GsonExample {
         Staff staff = createDummyObject();
 
         //1. Convert object to JSON string
-        GsonExample gson = new GsonExample();
+        Gson gson = new Gson();
         String json = gson.toJson(staff);
         System.out.println(json);
 
